@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наша техніка</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="head">
+        <h1>Наша продукція</h1>
+    </div>
+
+    <form action="" id="products" class="prod">
+        <div>
+        <label for="nameprod"><b>Оберіть продукт: </b></label>
+        <select name="nameprod" id="nameprod">
+            <option value="">-----</option>
+            <option value="phone">Телефон</option>
+            <option value="notebook">Ноутбук</option>
+            <option value="cleaner">Пилесос</option>
+            <option value="power">Зарядка</option>
+        </select>
+        </div>
+
+        <div>
+        <label for="watt"><b>Потужність : </b></label>
+        <input type="checkbox" id="15w" name="watt"><label for="15w">15w</label>
+        <input type="checkbox" id="25w" name="watt"><label for="25w">25w</label>
+        <input type="checkbox" id="65w" name="watt"><label for="65w">65w</label>
+        <input type="checkbox" id="100w" name="watt"><label for="100w">100w</label>
+        <input type="checkbox" id="200w" name="watt"><label for="200w">200w</label>
+        </div>
+
+        <div>
+        <label for="made"><b>Марка : </b></label>
+        <input type="checkbox" name="made" id="sm"><label for="sm">Samsung</label>
+        <input type="checkbox" name="made" id="lg"><label for="lg">LG</label>
+        <input type="checkbox" name="made" id="asus"><label for="asus">Asus</label>
+        <input type="checkbox" name="made" id="lenovo"><label for="lenovo">Lenovo</label>
+        </div>
+
+        <div>
+            <label for="sort"><b>Сортування : </b></label>
+            <select name="sorted" id="sorted">
+                <option value="">-----</option>
+                <option value="cheap">Дешеві</option>
+                <option value="expensive">Дорожчі</option>
+                <option value="rate">По рейтингу</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="modelname"><b>Назва моделі : </b></label>
+            <input type="text" placeholder="Назва моделі" name="model" id="model">
+        </div>
+
+        <div>
+            <input type="submit" value="Відправити">
+        </div>
+    </form>
+    
+</body>
+</html>

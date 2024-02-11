@@ -1,0 +1,28 @@
+#pass {
+    margin-left: 58px;
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+#login {
+    margin-left: 84px;
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+#repass {
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+#email {
+    margin-left: 36px;
+    border-radius: 8px;
+    border: 2px solid blue;
+}
+
+#remail {
+    margin-left: 22px;
+    border-radius: 8px;
+    border: 2px solid blue;
+}

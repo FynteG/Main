@@ -1,0 +1,41 @@
+body {
+    background-color: burlywood;
+}
+
+form {
+    width: 500px;
+    height: 570px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 50px 650px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+form div {
+    margin: 10px;
+}
+
+.head {
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+}
+
+.link {
+    width: 500px;
+    height: 20px;
+    background-color: cadetblue;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px 650px;
+    padding: 20px;
+    text-align: center;
+}
+
+.prod {
+    height: 200px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 9</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+
+    <div class="head">
+        <h1>Реєстрація</h1>
+    </div>
+
+    <form action="" id="main">
+        <div>
+            <label for="name"><b>Введіть ім'я - </b></label>
+            <input type="text" placeholder="Введіть Ім'я" name="name" id="name">
+        </div>
+        <div>
+            <label for="pass"><b>Введіть пароль - </b></label>
+            <input type="password" placeholder="Введіть пароль" name="pass" id="pass">
+        </div>
+        <div>
+            <label for="repass"><b>Повторить пароль - </b></label>
+            <input type="password" placeholder="Повторить пароль" name="repass" id="repass">
+        </div>
+        <div>
+            <label for="bdate"><b>Ваша дата народження - </b></label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="state"><b>Вкажіть вашу стать - </b></label>
+            <select name="state" id="state">
+                <option value="start">-----</option>
+                <option value="man">Чоловік</option>
+                <option value="woman">Жінка</option>
+            </select>
+        </div>
+        <div>
+            <label for="age"><b>Вкажіть ваш вік - </b></label>
+            <input type="number" placeholder="Вкажіть ваш вік" name="age" id="age">
+        </div>
+        <div>
+            <label for="about"><b>Розкажіть про себе : </b></label>
+            <textarea name="about" id="about" cols="60" rows="20" placeholder="Розкажіть про себе"></textarea>
+        </div>
+        <div class="sub">
+            <input type="submit" value="Зареєструватися">
+        </div>
+    </form>
+
+    <div class="link">
+        <a href="./products.html" target="_blank"><b>Купити нашу продукцію</b></a>
+    </div>
+
+    <div class="frame">
+        <iframe src="./products.html" frameborder="0" width="100%" height="400px"></iframe>
+    </div>
+    
+</body>
+</html>
