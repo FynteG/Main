@@ -1,0 +1,26 @@
+body {
+    background-color: burlywood;
+}
+        
+.over {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 40px;
+}
+
+.a {
+    overflow: auto;
+}
+
+.b {
+    overflow: hidden;
+}
+
+.c {
+    overflow: scroll;
+}
+
+.d {
+    overflow: visible;
+}

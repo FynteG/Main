@@ -1,0 +1,49 @@
+.flot {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+}
+
+.a {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: left;
+}
+
+.b {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: right;
+}
+
+.c {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: none;
+}
+
+.d {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: inline-start;
+}
+
+.e {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: inline-end;
+}
+
+.f {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    float: inherit;
+}

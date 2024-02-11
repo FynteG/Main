@@ -1,0 +1,60 @@
+body {
+    background-color: burlywood;
+}
+
+.blok {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    margin: 50px;
+    float: left;
+}
+
+.a {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    display: inline;
+}
+
+.b {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    display: block;
+}
+
+.c {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    display: none;
+}
+
+.d {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    display: inline-block;
+}
+
+.aa {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    visibility: visible;
+}
+
+.bb {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    visibility: hidden;
+}
+
+.cc {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    visibility: collapse;
+}

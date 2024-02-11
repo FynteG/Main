@@ -1,0 +1,78 @@
+body {
+    background-color: burlywood;
+}
+
+.heder {
+    text-align: center;
+    background-color: darkgreen;
+            
+}
+
+.music {
+    border: solid 2px blue;
+    margin: 140px;
+    margin-right: 400px;
+    margin-left: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    position: relative;
+}
+
+p {
+    background-color: azure;
+    color: darkred;
+}
+
+h2 {
+    position: absolute;
+    left: 40px;
+    top: -60px;
+}
+
+.info {
+    position: absolute;
+    right: 80px;
+    top: 40px;
+    
+}
+
+.info1 {
+    position: absolute;
+    right: 90px;
+    top: 60px;
+}
+
+.info2 {
+    position: absolute;
+    right: 107px;
+    top: 80px;
+}
+
+
+
+ul {
+    /* width: 100%; */
+    list-style-type: none;
+    position: fixed;
+    margin-top: 80px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: blue;
+    top: 0;
+    border-radius: 20px;
+    font-size: 22px;
+}
+
+li {
+    /* float: left; */
+    margin: 5px 15px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    
+}
