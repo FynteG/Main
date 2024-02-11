@@ -1,0 +1,33 @@
+body {
+    background-color: aqua;
+    
+}
+
+#span {
+    background-color: darkgoldenrod;
+    text-align: center;
+}
+
+#pit {
+    border: solid 1px black; 
+    float: left; 
+    padding: 4px;
+    padding-bottom: 1px;
+    margin-left: 100px;
+}
+
+#pitext {
+    background-color: bisque;
+    margin-left: 700px;
+    margin-right: 450px;
+    font-size: 19px;
+    border: solid 1px black;
+    padding-bottom: 10px;
+}
+
+#pitfilm {
+    background-color: bisque;
+    font-size: 19px;
+    margin-left: 750px;
+    margin-right: 720px;
+}

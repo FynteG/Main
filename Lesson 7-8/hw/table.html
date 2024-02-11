@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Самые кассовые фильмы!</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <style>
+        .scope:hover {
+            background-color: antiquewhite;
+            
+            }
+
+        .scope {
+            margin-right: 760px;
+        }
+
+        tr:nth-child(2n) {
+            color: lawngreen;
+        }
+
+        .scope ~ div {
+            background-color: orangered;
+        }
+
+        th[colspan]{
+            background-color: red;
+        }
+    </style>
+
+    <div id="span">
+        <h1>Самые кассовые фильмы!</h1>
+    </div>
+
+    <table class="tab" border="2">
+        <thead>
+            <tr id="head" height="50">
+                <th>Название</th>
+                <th>Бюджет</th>
+                <th>Год выпуска</th>
+                <th>Касса</th>
+                <th>Постер</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Аватар</td>
+                <td>237 млн $</td>
+                <td>2009</td>
+                <td>2.92 млрд $</td>
+                <td><img src="./img/avatar.jpg" width="100" alt="Аватар"></td>
+            </tr>
+            <tr>
+                <td>Мстители: Финал</td>
+                <td>356 млн $</td>
+                <td>2019</td>
+                <td>2.8 млрд $</td>
+                <td><img src="./img/avengers.jpg" width="100" alt=""></td>
+            </tr>
+            <tr>
+                <td>Аватар 2</td>
+                <td>250 млн $</td>
+                <td>2022</td>
+                <td>2.32 млрд $</td>
+                <td><img src="./img/avatar2.jpg" width="100" alt=""></td>
+            </tr>
+            <tr>
+                <td>Титаник</td>
+                <td>200 млн $</td>
+                <td>1997</td>
+                <td>2.265 млрд $</td>
+                <td><img src="./img/titanik.jpg" width="100" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="scope">
+        <b>*В этой таблице не будет ссылок на фильмографию!</b>
+    </p>
+
+    <a class="scope" href="./index.html"><b><i>Ссылка на таблицу про Актрис</i></b></a>
+    <a class="scope" href="./actrees.html"><b><i>Ссылка на таблицу про Актёров</i></b></a>
+    
+</body>
+</html>
