@@ -1,0 +1,66 @@
+.orange {
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+    border: 2px solid black;
+/* 
+    margin: 250px 700px;
+
+    border-radius: 200px 200px 200px 200px; */
+
+    border-radius: 200px 200px 200px 200px;
+}
+
+.peache {
+    height: 160px;
+    width: 85px;
+    background-color: green;
+    margin-left: 173px;
+
+    border-radius: 190px 1px 190px 1px;
+    
+}
+
+.p {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 6px;
+
+    margin-top: 20px;
+    margin-left: 173px;
+}
+
+.b {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 6px;
+
+    margin-top: 8px;
+    margin-left: 121px;
+}
+
+.v {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 6px;
+
+    margin-top: 44px;
+    margin-left: 189px;
+}
+
+.g {
+    height: 10px;
+    width: 10px;
+    background-color: black;
+    border-radius: 6px;
+
+    margin-top: 32px;
+    margin-left: 210px;
+}
+
+#all {
+    margin: 280px 700px;
+}
