@@ -1,0 +1,27 @@
+#first {
+    margin: 1px 720px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: coral;
+    border: solid 2px black;
+    
+}
+
+#video {
+    margin: 1px 720px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: coral;
+    border: solid 2px black;
+}
+
+#audio {
+    margin: 1px 720px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: coral;
+    border: solid 2px black;
+}

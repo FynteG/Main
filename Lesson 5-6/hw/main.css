@@ -1,0 +1,41 @@
+#title {
+    text-align: center;
+    color: blue;
+    background-color: aqua;
+}
+
+.ingrid {
+    margin-left: 400px;
+    margin-top: 10px;
+    width: 300px;
+    padding: 20px;
+    padding-right: 100px;
+    border: solid 1px;
+    border-color: black;
+    background-color: wheat;
+    float: left;
+}
+
+#title2 {
+    color: chocolate;
+}
+
+.plov {
+    width: 400px;  
+    padding: 2px; 
+    border: solid 1px black; 
+    float: left; 
+    position: relative; 
+    left: 60px;
+}
+
+.recept {
+    text-align: center;
+    color: darkblue;
+}
+
+#hw {
+    text-align: center;
+    margin-top: 450px;
+    color: blue;
+}
